@@ -1,7 +1,7 @@
 import getSpikesFromAccelerometer from '../utils/StepCalculator';
 
 
-it ("Should Show 60 Steps Taken", ()=>{
+it ("Should Show 32 Steps Taken", ()=>{
 
 
 let steps = [];

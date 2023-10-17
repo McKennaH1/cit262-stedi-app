@@ -1,8 +1,11 @@
-import myName from "../helloworld.js";
+import sayHello from "../utils/helloworld.mjs";
 import assert from "assert";
 
-it("My name is there", ()=> {
-    const name = myName();
+it("tests Hello World", () => {
+    const hello = sayHello();
 
-    assert.equal(name, "McKenna");
-});
+    assert.equal(hello, "hello");
+})
+
+console.log(sayHello());
+
