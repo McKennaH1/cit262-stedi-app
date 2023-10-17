@@ -1,5 +1,5 @@
 const sayHello = () => {
-    return "hello";
+    return "Hello";
     
 }
 

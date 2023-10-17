@@ -1,10 +1,10 @@
 import sayHello from "../utils/helloworld.mjs";
 import assert from "assert";
 
-it("tests Hello World", () => {
+it("tests file Hello World", () => {
     const hello = sayHello();
 
-    assert.equal(hello, "hello");
+    assert.equal(hello, "Hello");
 })
 
 console.log(sayHello());
