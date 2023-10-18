@@ -6,3 +6,5 @@ it("My name is there", ()=> {
 
     assert.equal(name, "McKenna");
 });
+
+console.log("Hello " + myName());

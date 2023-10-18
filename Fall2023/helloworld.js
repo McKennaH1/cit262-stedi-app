@@ -4,4 +4,3 @@ const myName = () => {
 
 export default myName;
 
-console.log("Hello " + myName());
