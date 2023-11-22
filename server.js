@@ -1,11 +1,14 @@
-const express =require('express');
+const express = require('express');
+const app = express(); // app is a backend application
 
-const port = 3000;
+app.get("/", (req,res)=> {
+    res.send("Welcome to my Sean's backend application");
+});
 
-const app = express();
+app.get("/mckenna",(req,res)=>{
+    res.send("Hello McKenna!");
+});
 
-app.get('/', (req,res) => {res.send("Hello Browser")});
-
-app.get('/mckenna', (req,res) => {res.send("Hello McKenna")});
-
-app.listen(port, ()=>console.log("Listening"));
+app.listen(3000,()=>{
+    console.log("Listening");
+});
